@@ -1,0 +1,14 @@
+{
+"name": "lgd2012.mbtiles",
+"description": "lgd2012.mbtiles",
+"version": "2",
+"minzoom": "0",
+"maxzoom": "13",
+"center": "-5.603027,54.252387,13",
+"bounds": "-8.217773,54.007769,-5.405273,55.329144",
+"type": "overlay",
+"format": "pbf",
+"generator": "tile-join v1.36.0",
+"generator_options": "tippecanoe -o lgd2012.mbtiles -Z0 -z13 lgd2012.geojson; tile-join -e ./pbf -pC -pk lgd2012.mbtiles",
+"json": "{\"vector_layers\": [ { \"id\": \"lgd2012\", \"description\": \"\", \"minzoom\": 0, \"maxzoom\": 13, \"fields\": {\"areacd\": \"String\", \"areanm\": \"String\"} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"lgd2012\",\"count\": 3468,\"geometry\": \"Polygon\",\"attributeCount\": 2,\"attributes\": [{\"attribute\": \"areacd\",\"count\": 11,\"type\": \"string\",\"values\": [\"N09000001\",\"N09000002\",\"N09000003\",\"N09000004\",\"N09000005\",\"N09000006\",\"N09000007\",\"N09000008\",\"N09000009\",\"N09000010\",\"N09000011\"]},{\"attribute\": \"areanm\",\"count\": 11,\"type\": \"string\",\"values\": [\"Antrim and Newtownabbey\",\"Ards and North Down\",\"Armagh City, Banbridge and Craigavon\",\"Belfast\",\"Causeway Coast and Glens\",\"Derry City and Strabane\",\"Fermanagh and Omagh\",\"Lisburn and Castlereagh\",\"Mid Ulster\",\"Mid and East Antrim\",\"Newry, Mourne and Down\"]}]}]}}"
+}
