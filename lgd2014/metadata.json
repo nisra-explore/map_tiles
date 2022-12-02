@@ -1,0 +1,15 @@
+{
+"name": "lgd.mbtiles",
+"description": "lgd.mbtiles",
+"version": "2",
+"minzoom": "0",
+"maxzoom": "13",
+"center": "-5.515137,54.686532,13",
+"bounds": "-8.217773,54.007769,-5.405273,55.329144",
+"type": "overlay",
+"format": "pbf",
+"generator": "tile-join v2.13.1",
+"generator_options": "tippecanoe -o lgd.mbtiles -Z0 -z13 lgd.geojson; tile-join -e ./pbf -pC -pk lgd.mbtiles",
+"strategies": "[ {  }, {  }, {  }, {  }, {  }, {  }, {  }, {  }, { \"tiny_polygons\": 1 }, { \"tiny_polygons\": 1 }, { \"tiny_polygons\": 5 }, { \"tiny_polygons\": 13 }, { \"tiny_polygons\": 28 }, { \"tiny_polygons\": 73 } ]",
+"json": "{\"vector_layers\": [ { \"id\": \"lgd\", \"description\": \"\", \"minzoom\": 0, \"maxzoom\": 13, \"fields\": {\"LGDCode\": \"String\", \"LGDNAME\": \"String\"} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"lgd\",\"count\": 3467,\"geometry\": \"Polygon\",\"attributeCount\": 2,\"attributes\": [{\"attribute\": \"LGDCode\",\"count\": 11,\"type\": \"string\",\"values\": [\"N09000001\",\"N09000002\",\"N09000003\",\"N09000004\",\"N09000005\",\"N09000006\",\"N09000007\",\"N09000008\",\"N09000009\",\"N09000010\",\"N09000011\"]},{\"attribute\": \"LGDNAME\",\"count\": 11,\"type\": \"string\",\"values\": [\"Antrim and Newtownabbey\",\"Ards and North Down\",\"Armagh City Banbridge and Craigavon\",\"Belfast\",\"Causeway Coast and Glens\",\"Derry City and Strabane\",\"Fermanagh and Omagh\",\"Lisburn and Castlereagh\",\"Mid Ulster\",\"Mid and East Antrim\",\"Newry Mourne and Down\"]}]}]}}"
+}
